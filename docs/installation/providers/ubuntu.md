@@ -233,10 +233,10 @@ Then, in the `nano` text editor window you just opened, copy the following - swa
 sudo a2dissite 000-default.conf
 sudo a2ensite monica.conf
 
-# Enable php8.1 fpm, and restart apache
+# Enable php8.2 fpm, and restart apache
 sudo a2enmod proxy_fcgi setenvif
-sudo a2enconf php8.1-fpm
-sudo service php8.1-fpm restart
+sudo a2enconf php8.2-fpm
+sudo service php8.2-fpm restart
 sudo service apache2 restart
 ```
 
